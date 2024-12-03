@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Về Chúng Tôi - Coffee Shop</title>
+    <link rel="stylesheet" href="styles_for_VeChungToiPage.css"> 
+    <script type="text/javascript" src="../js(local)/jquery.3.7.1.min.js"></script>
+    <link rel="stylesheet" href="../css(bootstrap)/bootstrap.css">
+
+    <link rel="stylesheet" href="../css(bootstrap)/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="..\fontawesome-free-6.7.1-web\css\all.min.css">
+
+    <script src="../js(local)/bootstrap.js"></script>
+    <script src="../js(local)/bootstrap.min.js"></script> 
+    
+    <script src="../js(local)/bootstrap.bundle.min.js" ></script>
+
+
+    <script>
+        //hiệu ứng cho nút quay về đầu trang
+        $(document).ready(function() {
+        // Hiện nút quay về đầu trang khi cuộn xuống
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('#backToTop').fadeIn();
+                } else {
+                    $('#backToTop').fadeOut();
+                }
+            });
+        // Cuộn về đầu trang khi nhấp vào nút
+            $('#backToTop').click(function() {
+                $('html, body').animate({scrollTop: 0}, 800);
+                return false;
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="headerfooter.css">
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header class="headertt">
+        <nav class="navbar navbar-expand-lg backgroundtt">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="../TrangChu/accets/img/White_logo800.png"
+                alt="Highlands"
+                class="logott"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+              aria-controls="navbarTogglerDemo01"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="texttt nav-link" aria-current="page" href="..\TrangChu\index.html"
+                    >Trang chủ</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="texttt nav-link" href="..\Menu\bt_thucdon.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a href="..\TinTuc\trangtintuc.html" class="texttt nav-link">Tin tức</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="texttt nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Khác
+                  </a>
+                  <ul class="listtt dropdown-menu">
+                    <li>
+                      <a class="listtt-item dropdown-item" href="..\VeChungToi\VeChungToi.html">Về Chúng tôi</a>
+                    </li>
+                    <li>
+                      <a class="listtt-item dropdown-item" href="#">Đối tác & Điều khoản</a>
+                    </li>
+                    <li>
+                      <a
+                        class="listtt-item dropdown-item"
+                        href="#"
+                        title="Đăng ký để nhận thông tin"
+                        >Form đăng ký</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="icon-languagett">
+                <img
+                  class="header-intput-img-list"
+                  src="./accets/img/flag-vn.jpg"
+                  alt=""
+                />
+    
+                <img
+                  class="header-intput-img-list"
+                  src="./accets/img/flag-en.jpg"
+                  alt=""
+                />
+              </div>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-secondary" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+     </header>
+     <!-- main -->
+     <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 id="title">Giá trị cốt lõi</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>Tại Coffee Shop, chúng tôi xác định bốn giá trị cốt lõi là nền tảng cho sự phát triển và thành công của mình. Đầu tiên, <strong>chất lượng sản phẩm</strong> là ưu tiên hàng đầu của chúng tôi. Chúng tôi cam kết sử dụng những hạt cà phê tốt nhất, được chọn lọc từ các vùng trồng cà phê nổi tiếng, để mang đến cho khách hàng những ly cà phê thơm ngon và đậm đà hương vị.</p>
+                        <p>Thứ hai, <strong>đổi mới và sáng tạo</strong> là động lực thúc đẩy chúng tôi không ngừng phát triển. Chúng tôi luôn tìm kiếm những công thức pha chế mới, những món đồ uống độc đáo và những trải nghiệm mới mẻ để làm phong phú thêm thực đơn của mình, nhằm đáp ứng nhu cầu ngày càng đa dạng của khách hàng.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <video controls muted loop autoplay class="img-fluid" style="margin-top: 20px; width: 100%; border-radius: 15px;">
+                            <source src="videos/talk.mp4" type="video/mp4">
+                            <source src="videos/talk.mp4" type="video/mp4">
+                            <source src="videos/talk.mp4" type="video/mp4">
+                            <source src="videos/talk.mp4" type="video/mp4">
+                            Trình duyệt của bạn không hỗ trợ video.
+                        </video>
+                    </div>
+                        <p>Thứ ba, <strong>khách hàng</strong> là trung tâm trong mọi hoạt động của chúng tôi. Chúng tôi lắng nghe ý kiến và phản hồi từ khách hàng để cải thiện dịch vụ và sản phẩm, đảm bảo rằng mỗi khách hàng đều cảm thấy hài lòng và được trân trọng khi đến với Coffee Shop.</p>
+                        <p>Cuối cùng, <strong>đội ngũ nhân viên tận tâm</strong> là tài sản quý giá nhất của chúng tôi. Chúng tôi tự hào về đội ngũ nhân viên chuyên nghiệp, nhiệt huyết và luôn sẵn sàng phục vụ. Họ không chỉ là những người pha chế tài năng mà còn là những người bạn đồng hành, luôn sẵn lòng lắng nghe và đáp ứng nhu cầu của khách hàng.</p>
+                        <p>Với bốn giá trị cốt lõi này, Coffee Shop không chỉ là nơi để thưởng thức cà phê mà còn là một không gian ấm cúng, nơi mọi người có thể kết nối và tạo ra những kỷ niệm đáng nhớ.</p>
+               </div>
+            </div>
+            <div class="col-md-4 img-section-a ">
+                <div class="row" style="margin-top: 20px; margin-left: 20px;">             
+                    <div class="col-6" style="margin-top: 20px;">
+                        <a href="GioiThieu.html" style="position: relative;">
+                            <img src="images(CT)/coffee2.jpg" alt="Coffee Shop" class="img-fluid img-rounded"> 
+                            <span>Giới thiệu</span>
+                        </a>
+                    </div>
+                    <div></div>
+                    <div class="col-6" style="margin-top: 20px;">
+                        <a href="SuMenh.html" style="position: relative;">
+                            <img src="images(CT)/the-counter2.jpg" alt="Coffee Shop" class="img-fluid img-rounded"> 
+                            <span>Sứ mệnh</span>
+                        </a>
+                    </div>
+                    
+                    <div></div>
+                    <div class="col-6" style="margin-top: 20px;">
+                        <a href="VeChungToi.html" style="position: relative;">
+                            <img src="images(CT)/relax.jpg" alt="Coffee Shop" class="img-fluid img-rounded"> 
+                            <span>Về chúng tôi</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="text-white text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Liên Hệ</h5>
+                    <p>
+                        Số 98A, Trần Hưng Đạo, Cần Thơ<br>
+                        Điện thoại: (123) 456-7890<br>
+                        Email: info@coffeeshop.com
+                    </p>
+                </div>
+    
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Giờ Mở Cửa</h5>
+                    <p>
+                        Thứ Hai - Thứ Sáu: 7:00 AM - 9:00 PM<br>
+                        Thứ Bảy - Chủ Nhật: 8:00 AM - 10:00 PM
+                    </p>
+                </div>
+    
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Theo Dõi Chúng Tôi</h5>
+                    <a href="#" class="text-white me-4" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white me-4" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="text-white me-4" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <button id="backToTop" class="btn btn-secondary" >
+            <i class="fas fa-arrow-up"></i></button>
+    </footer>
+</body>
+
+</html> 

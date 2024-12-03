@@ -1,0 +1,94 @@
+
+
+body{
+    font-family: 'Chonburi';
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+:root{
+    --CreamWhite: #fbf8f2;
+    --HighlandRed: #b22830 ;
+    --HighlandBrown:#53382c;
+    --CreamBrown:#ab8b7a;
+}
+
+header,footer{
+
+    color : #fbf8f2;
+    flex-shrink: 0;
+
+}
+
+header{
+    background-color:#b22830 ;
+    height: 120px;
+}
+
+.navbar,.cointainer-fluid{
+    height: 100%;
+}
+
+
+nav{
+    flex:1;
+}
+.navbar-brand img {
+    max-height: 90px; /* Adjust as needed */
+    width: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    background-color: #53382c;
+    padding:8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items: center;
+    flex:1
+
+}
+.headertxt{
+    font-size: 20px;
+}
+
+.d-flex{
+    flex-direction: row;
+}
+
+.nav-link:hover{
+    color: var(--CreamWhite);
+}
+ p,strong{
+    font-family: 'Noto Serif' ;
+    margin:0;
+}
+div h1{
+    font-weight: bolder;
+    margin:0
+}
+
+
+.socialList{
+    list-style-type: none;
+
+
+}
+
+.socialItem{
+    padding:8px;
+    text-decoration: none;
+    color:var(--CreamWhite);
+    font-size:20px;
+    float: left;
+}
+
+.footertxt{
+    color: var(--CreamWhite);
+    font-size:20px;
+    font-family: 'Chonburi';
+    font-weight: bold;
+}

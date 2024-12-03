@@ -1,0 +1,36 @@
+.background {
+  background-color: #b22830;
+}
+.logo {
+  margin-top: 1rem;
+  width: 8.6rem;
+  height: 7rem;
+}
+.text {
+  text-transform: uppercase;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 700;
+}
+.text:hover,
+.text:active {
+  color: #000;
+  background-color: #53382c;
+  cursor: pointer;
+}
+.list {
+  background-color: #53382c;
+}
+.list-item {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffff;
+}
+
+.list-item:active {
+  background-color: #ffff;
+  color: #f1bc7a;
+}
+.icon-language {
+  padding: 10px;
+}
